@@ -1,0 +1,575 @@
+* {
+	margin: 0;
+	padding:0;
+}
+
+a { 
+	text-decoration: none;
+	color: #369;
+}
+
+section {
+	margin:30px auto;
+	width:825px;
+	display: block;
+}
+
+sup {
+	color: #999;
+	font-weight: normal;
+	font-size: 11px;
+}
+
+@font-face {
+	font-family: 'Crimson Text', serif;
+}
+
+@font-face {
+	font-family: 'Crimson Text', serif;
+}
+
+/* Nav */
+nav {
+	min-width: 100%;
+	height:  48px;
+	font-family: 'Crimson Text', serif;
+	font-size: 20px;
+
+}
+nav ul {
+	position: relative;
+	bottom: 2px;
+	right: 1px;
+	float: right;
+	margin: 12px 18px;
+	padding:10px 30px;
+}
+nav li {
+	margin: 15px 5px 15px 6px;
+	padding:5px 4px;
+	font-size: 13px;
+	display: inline;
+	color: #369;
+}
+nav li a:hover {
+	color: #18afe0;
+}
+.signin {
+	color:#18afe0;
+}
+.sginin:hover {
+	color: #369;
+}
+
+/* Header */
+header {
+	clear: both;
+	width: 829px;
+	height: 163px;
+	margin: 0 auto;
+	padding:6px 0;
+	text-align: center;
+	font-family: 'Crimson Text', serif;
+}
+header h1 {
+	font-weight: 500;
+	font-size: 58px;
+	line-height: 1em;
+	margin: 10px 0 20px 0;
+	letter-spacing: -2px;
+	color: #232323;
+	clear: both;
+
+}
+header h5 {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.5em;
+	color: #222;
+}
+
+/*Products*/
+.products {
+	text-align: center;
+	width: 90%;
+	margin: 0, auto;
+	height: 288px;
+	padding-bottom: 30px;
+	font-family: 'Crimson Text', serif;
+}
+.products h3 {
+	font-size: 21px;
+	color: #369;
+	font-weight:bold;
+	line-height: 1.5em;
+	margin: 0 0 10px 0;
+}
+.products h3 span {
+	text-decoration: underline;
+}
+.products h4 {
+	margin: 5px 0 10px;
+	font-size: 14px;
+	color:#c00;
+}
+.products p {
+	color: #222;
+	font-size: 14px;
+	line-height: 1.4em;
+	margin: 5px 0;
+}
+.products a {
+	position: relative;
+	top: 40px;
+	left: 75px;
+	width: 160px;
+	margin: 15px 20px 5px;
+	float: left;
+	border: 1px solid #e8e8e8;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #efefef;
+	padding: 20px 10px 10px;
+	text-decoration: none;
+	font-family: 'Crimson Text', serif;
+}
+/*Customers*/
+.customers {
+	margin-bottom: 50px;
+}
+.customers h2 {
+	font-family: 'Crimson Text', serif;
+	color: #232323;
+	font-size: 48px;
+	font-weight: 500;
+	font-style: normal;
+	line-height: 1.1em;
+	letter-spacing: -1px;
+	text-align: center;
+}
+.customers p {
+	font-family: 'Crimson Text', serif;
+	text-align: left;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 1.3em;
+	color: #666;
+	margin: 0 0 1em 0;
+}
+.meet {
+	position: relative;
+}
+.meet a {
+	display: block;
+	width: 143px;
+	height: 104px;
+	background: url('img/img_customers.png') no-repeat 0 0;
+	text-indent: -1000em;
+}
+.meet a:hover {
+	background-position: 0 100%;
+}
+.meet p {
+	font-family: 'Crimson Text', serif;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 1.3em;
+	text-align: center;
+	color: #369c;
+}
+.meet p:hover {
+	color: #369c;
+	text-decoration: underline;
+}
+.arrow-left {
+	width: 69px;
+	height:36px;
+	position: relative;
+	top: -35px;
+}
+.globe {
+	float: right;
+	vertical-align: top;
+}
+/*Manifesto*/
+.manifesto {
+	margin-top: 0;
+	margin-bottom: 50px;
+	padding-left: 15px;
+	overflow: hidden;
+}
+.manifesto h2 {
+	font-family: 'Crimson Text', serif;
+	color: #232323;
+	font-size: 48px;
+	font-weight: normal;
+	line-height: 1.1em;
+	letter-spacing: -1px;
+	text-align: center;
+	margin: 30px 0;
+}
+.colomn {
+	width: 380px;
+	float: left;
+	margin-right: 40px;
+	font-family: 'Crimson Text', serif;
+	text-align: center;
+	color: #222;
+	font-size: 18px;
+	line-height: 1.5em;
+}
+.colonmn-end {
+	margin-right: 0px;
+	width: 380px;
+	float: left;
+	font-family: 'Crimson Text', serif;
+	text-align: center;
+	color: #222;
+	font-size: 18px;
+	line-height: 1.5em;
+}
+.manifesto h3 {
+	font-family: 'Crimson Text', serif;
+	padding-left: 5px;
+	width: 25px;
+	float:left;
+	font-size: 58px;
+	font-weight: 500;
+	line-height: normal;
+	margin:-10px 15px 0 0;
+	color: #ccc;
+}
+
+.manifesto h4 {
+	font-family: 'Crimson Text', serif;
+	font-size: 16px;
+	margin: 5px;
+	color: #c00;
+	text-align: left;
+}
+.manifesto p {
+	margin:0 0 0 45px;
+	font-family: 'Crimson Text', serif;
+	text-align: left;
+	line-height: 1.4em;
+	font-size: 12px;
+	color: #222;
+}
+
+/*Rework*/
+
+.rework {
+	height: 500px;
+}
+.rework h2 {
+	font-family: 'Crimson Text', serif;
+	color: #232323;
+	margin: 30px 0;
+	font-size: 48px;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1.1em;
+	letter-spacing: -1px;
+	text-align: center;
+
+}
+
+.book{
+	width: 293px;
+	height: 400px;
+	float: left;
+}
+
+.quotes h3 {
+	color: #888;
+	font-weight: normal;
+	font-family: 'Crimson Text', serif;
+	font-style: italic;
+	font-size: 22px;
+	margin: 35px 0 10px;
+}
+
+.quotes p {
+	font-family: 'Crimson Text', serif;
+	font-size: 12px;
+	margin: 0;
+}
+
+.arrow-right {
+	width: 69px;
+	height: 36px;
+	position: relative;
+	top:-465px;
+	left: 750px;
+}
+
+.crumple {
+	position: relative;
+	top: -530px;
+	left: 800px;
+	width: 143px;
+	height: 145px;
+}	
+
+.crumple p {
+	font-family: 'Crimson Text', serif;
+	font-size: 10px;
+	margin:0;
+	text-align: center;
+	line-height: 1.5em;
+	color: #222;
+}
+
+/*Offerings*/
+
+.offerings h2 {
+	font-family: 'Crimson Text', serif;
+	color: #232323;
+	margin: 30px 0;
+	font-size: 48px;
+	font-weight: 500;
+	font-style: normal;
+	line-height: 1.1em;
+	text-align: center;
+}
+
+.main-offerings {
+	width: 570px;
+	height: 213px;
+	clear: both;
+	overflow: hidden;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.main-offerings a {
+	width: 170px;
+	margin: 5px;
+	float: left;
+	padding: 0 10px;
+	text-decoration: none;
+	font-family: 'Crimson Text', serif;
+	text-align: center;
+	line-height: 1.5em;
+}
+
+.main-offerings h3 {
+	font-size: 21px;
+	margin: 3px 0 0 10px;
+	color: #222;
+	font-weight: bold;
+}
+
+.main-offerings h3:hover {
+	color: #69c;
+}
+
+.main-offerings h4 {
+	margin: 5px 0;
+	font-size: 14px;
+	color: #c00;
+}
+
+.offerings .colomn h3,
+.offerings .colomn-end h3 {
+	padding-bottom: 5px;
+	border-bottom: 1px solid #e8e8e8;
+	font-family: 'Crimson Text', serif;
+	font-size:14px;
+	margin:5px 0;
+	color: #c00;
+}
+
+.offerings .colomn-end {
+	float: left;
+	width: 300px;
+	padding: 0;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.offerings .colomn {
+	float: left;
+	width: 300px;
+	padding: 0;
+	margin-right: 30px;
+	margin-left: 95px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.offerings .colomn-end {
+	float: left;
+	width: 300px;
+	padding: 0;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 95px;
+	text-align: center;
+}
+
+.offerings .colomn li,
+.offerings .colomn-end li {
+	padding:8px 0;
+	font-family: 'Crimson Text', serif;
+	list-style-type: none;
+	margin: 0;
+	font-size: 12px;
+}
+
+.offerings .colomn a,
+.offerings .colomn-end a {
+	font-size: 22px;
+	font-weight: bold;
+	font-style: normal;
+	color: #222;
+}
+
+.offerings .colomn a:hover {
+	color: #69c;
+}
+
+.offerings .colomn small,
+.offerings .colomn-end small {
+	color: #666;
+	font-size: 12px;
+	font-family: 'Crimson Text', serif;
+}
+
+/*Footer*/
+
+footer {
+	margin:30px auto;
+	width: 825px;
+	display: block;
+	text-align: center;
+	line-height: 1.5em;
+}
+
+footer h3 {
+	font-family: 'Crimson Text', serif;
+	font-size: 124x;
+	margin: 5px 0;
+	color: #c00;
+}
+
+footer li {
+	list-style-type: none;
+	font-size: 12px;
+	margin: 0;
+	padding:5px 0;
+	font-family: 'Crimson Text', serif;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #69c;
+}
+
+footer p {
+	font-size: 10px;
+	color: #999;
+	font-family: 'Crimson Text', serif;
+	margin-top: 50px;
+}
+
+a.hover-box {
+	box-shadow: 0 0 15px #333;
+}
+
+.hidden {
+	display: none;
+}
+
+div.extra {
+	clear: both;
+	width: 829px;
+	height: 163px;
+	margin: 0 auto;
+	padding:6px 0;
+	text-align: center;
+	font-family: 'Crimson Text', serif;
+}
+
+.extra h1 {
+	color: #222;
+	margin: 10px 0 15px 0;
+	font-size: 46px;
+	letter-spacing: -1px;
+	font-weight: normal;
+	clear: both;
+	line-height: 1.0em;
+	font-family: 'Crimson Text', serif;
+}
+
+.extra p {
+	font-size: 15px;
+	color: #222;
+	line-height: 1.4em;
+	margin-top: 5px;
+	font-family: 'Crimson Text', serif;
+	text-align: center;
+}
+
+.right-arrow {
+	position: absolute;
+	top: 5px;
+	right: 140px;
+	z-index: 1;
+}
+
+.right-arrow-b {
+	position: absolute;
+	top: 290px;
+	right: 510px;
+	z-index: 1;
+}
+
+.left-arrow {
+	position: absolute;
+	top: 290px;
+	right: 440px;
+	z-index: 1;
+}
+
+.pbox {
+	font-size: 14px;
+	line-height: 1.4em;
+	margin-top: 5px;
+	font-family: 'Crimson Text', serif;
+	text-align: center;
+	border: 2px solid #ccc;
+	border-radius: 5px;
+	padding: 7px 0;
+	font-weight: bold;
+	color: #336699
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
