@@ -1,3 +1,10 @@
+
+
+
+/*-------Custom Styles--------*/
+
+
+
 * {
 	margin: 0;
 	padding:0;
@@ -8,9 +15,13 @@ a {
 	color: #369;
 }
 
+body {
+	max-width: 900px;
+}
+
 section {
 	margin:30px auto;
-	width:825px;
+	width:100%;
 	display: block;
 }
 
@@ -28,7 +39,21 @@ sup {
 	font-family: 'Crimson Text', serif;
 }
 
-/* Nav */
+.divider {
+	max-width: 900px;
+	margin: 25px auto;
+	padding-left: 50%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	display: inline-block;
+}
+
+img, video, canvas {
+	max-width: 100%;
+	}
+/* ------------Nav---------- */
+
+
 nav {
 	min-width: 100%;
 	height:  48px;
@@ -57,11 +82,16 @@ nav li a:hover {
 .signin {
 	color:#18afe0;
 }
-.sginin:hover {
+.signin:hover {
 	color: #369;
 }
 
-/* Header */
+
+
+/* ----------Header---------- */
+
+
+
 header {
 	clear: both;
 	width: 829px;
@@ -75,10 +105,13 @@ header h1 {
 	font-weight: 500;
 	font-size: 58px;
 	line-height: 1em;
-	margin: 10px 0 20px 0;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	width: 100%;
 	letter-spacing: -2px;
 	color: #232323;
 	clear: both;
+	display: inline-block;
 
 }
 header h5 {
@@ -86,13 +119,17 @@ header h5 {
 	font-size: 20px;
 	line-height: 1.5em;
 	color: #222;
+	width: 100%;
+	margin: 0 auto;
 }
 
-/*Products*/
+/*----------Products----------*/
+
+
 .products {
 	text-align: center;
-	width: 90%;
-	margin: 0, auto;
+	width: 100%;
+	margin: 0 auto;
 	height: 288px;
 	padding-bottom: 30px;
 	font-family: 'Crimson Text', serif;
@@ -132,7 +169,12 @@ header h5 {
 	text-decoration: none;
 	font-family: 'Crimson Text', serif;
 }
-/*Customers*/
+
+
+/*----------Customers----------*/
+
+
+
 .customers {
 	margin-bottom: 50px;
 }
@@ -162,7 +204,7 @@ header h5 {
 	display: block;
 	width: 143px;
 	height: 104px;
-	background: url('img/img_customers.png') no-repeat 0 0;
+	background: url("http://codecademy.com/salespage/img-customers.png") no-repeat 0 0;
 	text-indent: -1000em;
 }
 .meet a:hover {
@@ -190,7 +232,12 @@ header h5 {
 	float: right;
 	vertical-align: top;
 }
-/*Manifesto*/
+
+
+/*----------Manifesto----------*/
+
+
+
 .manifesto {
 	margin-top: 0;
 	margin-bottom: 50px;
@@ -217,7 +264,7 @@ header h5 {
 	font-size: 18px;
 	line-height: 1.5em;
 }
-.colonmn-end {
+.colomn-end {
 	margin-right: 0px;
 	width: 380px;
 	float: left;
@@ -255,7 +302,13 @@ header h5 {
 	color: #222;
 }
 
-/*Rework*/
+
+
+
+/*----------Rework----------*/
+
+
+
 
 .rework {
 	height: 500px;
@@ -319,7 +372,11 @@ header h5 {
 	color: #222;
 }
 
-/*Offerings*/
+
+
+/*----------Offerings----------*/
+
+
 
 .offerings h2 {
 	font-family: 'Crimson Text', serif;
@@ -330,10 +387,11 @@ header h5 {
 	font-style: normal;
 	line-height: 1.1em;
 	text-align: center;
+	display: inline-block;
 }
 
 .main-offerings {
-	width: 570px;
+	width: 600px;
 	height: 213px;
 	clear: both;
 	overflow: hidden;
@@ -437,7 +495,7 @@ header h5 {
 	font-family: 'Crimson Text', serif;
 }
 
-/*Footer*/
+/*----------Footer----------*/
 
 footer {
 	margin:30px auto;
@@ -516,9 +574,11 @@ div.extra {
 }
 
 .right-arrow {
-	position: absolute;
-	top: 5px;
-	right: 140px;
+	width: 69px;
+	height: 36px;
+	position: relative;
+	top: -465px;
+	left: 750px;
 	z-index: 1;
 }
 
@@ -550,8 +610,7 @@ div.extra {
 }
 
 
-
-
+/*-----Media Query-----*/
 
 
 
